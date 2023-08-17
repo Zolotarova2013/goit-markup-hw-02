@@ -1,0 +1,148 @@
+/*  */
+body{
+    background-color:#FFF;
+    font-family:'Roboto', sans-serif,'Raleway', sans-serif;
+    color:#434455;
+
+}
+.full-text-logo{
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        }
+.text-logo{
+    color:#4D5AE5;
+}
+.main-navigation{
+        font-size: 16px;
+        font-weight: 500;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color:#2E2F42
+}
+/* скидаємо підкреслення в маркерованих списках і посиланнях */
+.list-contacts-item,
+.item-nav,
+.full-text-logo,
+.footer-logo{
+    text-decoration: none;
+    }
+.main-contacts,
+.main-navigation,
+.list-personnel,
+.list-portfolio,
+.item-under-hero
+{
+    list-style-type: none;
+}
+a:active,a:hover,a:focus{
+    color:#404BBF;
+}
+.contacts-header{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.contacts-header:hover,.contacts-header:focus {
+ color: #4D5AE5;
+}
+
+
+/* секція hero*/
+.hero-section{
+    background-color: #2E2F42;
+}
+.head-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
+.button-hero{
+    background-color:#404BBF ;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+ .button-hero:hover,.button-hero:focus{
+    background-color:#4D5AE5;
+    color:#FFF;
+ } 
+ .title-under-hero{
+         font-size: 20px;
+         font-weight: 500;
+        line-height:1.2;
+        letter-spacing: 0.02em;
+        
+ }
+.text-under-hero{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing:0.02em;
+}
+.title-personnel{
+        font-size: 36px;
+        font-weight: 700;
+        line-height:1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.name-personel{
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.position{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.menu-portfolio-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.menu-portfolio-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.section-footer{
+    background-color: #2E2F42;
+}
+.text-logo-footer{
+    color:#4D5AE5;
+}
+    .footer-logo{
+    color: #F4F4FD;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+       
+         }
+  .footer-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+
+         }
+         
