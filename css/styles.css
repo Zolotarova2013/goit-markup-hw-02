@@ -6,7 +6,11 @@ body{
 
 }
 .item-nav{
-    color:#2e2f42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#2e2f42;
 }
 .full-text-logo{
     font-family: 'Raleway',sans-serif;
@@ -21,35 +25,32 @@ body{
 .text-logo{
     color:#2E2F42;
 }
-.main-navigation{
-        font-size: 16px;
-        font-weight: 500;
-        line-height:1.5;
-        letter-spacing: 0.02em;
-        color:#2e2f42;
-    }
 
 .list-contacts-item{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     color: #434455;
 }
 /* скидаємо підкреслення в маркерованих списках і посиланнях */
-.list-contacts-item,
-.item-nav,
-.full-text-logo,
-.footer-logo{
+ a {
     text-decoration: none;
     }
-.main-contacts,
-.main-navigation,
-.list-personnel,
-.list-portfolio,
-.item-under-hero
+ul,ol
 {
     list-style-type: none;
 }
-a:active,a:hover,a:focus{
-    color:#404BBF;
+.item-nav:active,
+.list-contacts-item:active,
+.item-nav:hover,
+.list-contacts-item:hover,
+.item-nav:focus,
+.list-contacts-item:focus
+{
+color: #404BBF;
 }
+
 .contacts-header{
         font-size: 16px;
         font-weight: 400;
@@ -60,7 +61,7 @@ a:active,a:hover,a:focus{
 .contacts-header{
     font-style: normal;
 }
-.contacts-header:hover,.contacts-header:focus {
+.list-contacts-item:hover,.list-contacts-item:focus {
  color: #4D5AE5;
 }
 
@@ -77,12 +78,11 @@ a:active,a:hover,a:focus{
     color: #FFF;
     text-align: center;
 }
-.button-hero{
-    font-family: ;
+.button-hero {
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
         background-color: #4D5AE5;
@@ -103,7 +103,6 @@ a:active,a:hover,a:focus{
  }
 .text-under-hero{
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing:0.02em;
         color:#434455;        
@@ -122,7 +121,6 @@ a:active,a:hover,a:focus{
         text-transform: capitalize;
 }
 .name-personel{
-    font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -137,7 +135,6 @@ a:active,a:hover,a:focus{
  }
 .position{
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -152,7 +149,6 @@ a:active,a:hover,a:focus{
 }
 .menu-portfolio-text{
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
