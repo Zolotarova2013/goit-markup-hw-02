@@ -1,26 +1,29 @@
 /*  */
 body{
     background-color:#FFF;
-    font-family:'Roboto', sans-serif,'Raleway', sans-serif;
+    font-family:'Roboto', sans-serif;
     color:#434455;
 
 }
 .full-text-logo{
-    font-family: Raleway;
+    font-family: 'Raleway',sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+
         }
 .text-logo{
-    color:#4D5AE5;
+    color:#2E2F42;
 }
 .main-navigation{
         font-size: 16px;
         font-weight: 500;
         line-height:1.5;
         letter-spacing: 0.02em;
-        color:#2E2F42
+        color:#2E2F42;
 }
 /* скидаємо підкреслення в маркерованих списках і посиланнях */
 .list-contacts-item,
@@ -45,6 +48,10 @@ a:active,a:hover,a:focus{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color:#434455 ;
+}
+.contacts-header{
+    font-style: normal;
 }
 .contacts-header:hover,.contacts-header:focus {
  color: #4D5AE5;
@@ -61,18 +68,22 @@ a:active,a:hover,a:focus{
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFF;
+    text-align: center;
 }
 .button-hero{
-    background-color:#404BBF ;
+    font-family: ;
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.04em;
         cursor: pointer;
+        background-color: #4D5AE5;
+        font-family: 'Roboto',
+            sans-serif;
 }
  .button-hero:hover,.button-hero:focus{
-    background-color:#4D5AE5;
+    background-color:#404BBF;
     color:#FFF;
  } 
  .title-under-hero{
@@ -80,6 +91,7 @@ a:active,a:hover,a:focus{
          font-weight: 500;
         line-height:1.2;
         letter-spacing: 0.02em;
+        color: #2e2f42;
         
  }
 .text-under-hero{
@@ -87,6 +99,10 @@ a:active,a:hover,a:focus{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing:0.02em;
+        color:#2e2f42;
+ .section-personel{
+    background-color: #F4F4FD;
+ }
 }
 .title-personnel{
         font-size: 36px;
@@ -115,6 +131,8 @@ a:active,a:hover,a:focus{
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-transform: capitalize;
+        text-align: center;
 }
 .menu-portfolio-text{
         font-size: 16px;
@@ -126,7 +144,7 @@ a:active,a:hover,a:focus{
     background-color: #2E2F42;
 }
 .text-logo-footer{
-    color:#4D5AE5;
+    color:#F4F4FD;
 }
     .footer-logo{
     color: #F4F4FD;
@@ -135,6 +153,8 @@ a:active,a:hover,a:focus{
         font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#4D5AE5;
        
          }
   .footer-text{
